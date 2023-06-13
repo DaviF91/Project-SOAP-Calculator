@@ -1,0 +1,21 @@
+{
+  "name": "soap-calculator",
+  "version": "1.0.0",
+  "description": "Aplicação Node.js para consumir serviço SOAP de uma calculadora",
+  "main": "calculator_sync.js",
+  "scripts": {
+    "sync:add": "node calculator_sync.js 5 4 adicionar",
+    "sync:subtract": "node calculator_sync.js 8 3 subtrair",
+    "sync:multiply": "node calculator_sync.js 5 9 multiplicar",
+    "sync:divide": "node calculator_sync.js 10 2 dividir",
+    "async:add": "node calculator_async.js 2 7 adicionar",
+    "async:subtract": "node calculator_async.js 2 2 subtrair",
+    "async:multiply": "node calculator_async.js 7 7 multiplicar",
+    "async:divide": "node calculator_async.js 8 2 dividir"
+  },
+  "author": "Davi Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "soap": "^1.0.0"
+  }
+}
